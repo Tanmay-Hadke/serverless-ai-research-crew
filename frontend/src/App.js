@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import './App.css'; // We are relying strictly on this CSS file now
 
 // ---> PASTE YOUR AWS API GATEWAY URL HERE <---
-const API_GATEWAY_URL = "https://ekp8zglhdk.execute-api.us-east-1.amazonaws.com/default"; 
+const API_GATEWAY_URL = "https://YOUR_API_ID.amazonaws.com/default"; 
 
 function App() {
   const [topic, setTopic] = useState("");
